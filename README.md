@@ -32,11 +32,6 @@ Siga os passos abaixo para ter a aplicação rodando localmente em poucos minuto
 
 ### 1. Clonar o Repositório
 
-```bash
-git clone [https://github.com/willdoliver/ecommerce-crud.git](https://github.com/willdoliver/ecommerce-crud.git)
-cd ecommerce-api
-```
-
 ### 2. Configurar Variáveis de Ambiente
 
 Copie o arquivo de exemplo para criar sua configuração local.
