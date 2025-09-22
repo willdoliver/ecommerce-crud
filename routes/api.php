@@ -15,3 +15,9 @@ Router::add('GET', '/orders/{id}', [\App\Order\Controllers\OrderController::clas
 Router::add('GET', '/orders', [\App\Order\Controllers\OrderController::class, 'list'], [AuthMiddleware::class]);
 Router::add('PUT', '/orders/{id}', [\App\Order\Controllers\OrderController::class, 'update'], [AuthMiddleware::class]);
 Router::add('DELETE', '/orders/{id}', [\App\Order\Controllers\OrderController::class, 'delete'], [AuthMiddleware::class]);
+
+// TODO: 
+// Check currency conversion API
+// pagination list(s)
+// Tests
+// Swagger
